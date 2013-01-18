@@ -4,12 +4,12 @@ CFLAGS = -g -Wall -fPIC
 
 OUTPUT := ./libeasy.a
 
-INCS_HEAD := ./thread ./packet ./io ./util ./memory ./include  ./packet/http ./libevent/compat/sys
+INCS_HEAD := ./ ./libevent/compat/sys
 
 LIB_PATH := 
 LIBS := -lpthread -lrt
 
-SOURCE := $(wildcard  ./memory/*.c ./packet/*.c ./thread/*.c ./io/*.c ./util/*.c ./packet/http/*.c ./libevent/*.c)
+SOURCE := $(wildcard  *.c)
 OBJS := $(patsubst %.c, %.o, $(SOURCE))
 #LIBOBJS := $(filter-out x.o , $(OBJS))
 
