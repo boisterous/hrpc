@@ -4,7 +4,7 @@ CFLAGS = -g -Wall -fPIC
 
 OUTPUT := ./libeasy.a
 
-INCS_HEAD := ./thread ./packet ./io ./util ./memory ./include  ./packet/http
+INCS_HEAD := ./thread ./packet ./io ./util ./memory ./include  ./packet/http ./compact
 
 LIB_PATH := 
 LIBS := -lpthread -lrt
