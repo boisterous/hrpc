@@ -1,17 +1,3 @@
-/* $Id: evdns.c 6979 2006-08-04 18:31:13Z nickm $ */
-
-/* The original version of this module was written by Adam Langley; for
- * a history of modifications, check out the subversion logs.
- *
- * When editing this module, try to keep it re-mergeable by Adam.  Don't
- * reformat the whitespace, add Tor dependencies, or so on.
- *
- * TODO:
- *   - Support IPv6 and PTR records.
- *   - Replace all externally visible magic numbers with #defined constants.
- *   - Write doccumentation for APIs of all external functions.
- */
-
 /* Async DNS Library
  * Adam Langley <agl@imperialviolet.org>
  * http://www.imperialviolet.org/eventdns.html

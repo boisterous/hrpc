@@ -1,26 +1,4 @@
 
-/*
- * The original DNS code is due to Adam Langley with heavy
- * modifications by Nick Mathewson.  Adam put his DNS software in the
- * public domain.  You can find his original copyright below.  Please,
- * aware that the code as part of libevent is governed by the 3-clause
- * BSD license above.
- *
- * This software is Public Domain. To view a copy of the public domain dedication,
- * visit http://creativecommons.org/licenses/publicdomain/ or send a letter to
- * Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
- *
- * I ask and expect, but do not require, that all derivative works contain an
- * attribution similar to:
- * 	Parts developed by Adam Langley <agl@imperialviolet.org>
- *
- * You may wish to replace the word "Parts" with something else depending on
- * the amount of original code.
- *
- * (Derivative works does not include programs which link against, run or include
- * the source verbatim in their source distributions)
- */
-
 /** @file evdns.h
  *
  * Welcome, gentle reader

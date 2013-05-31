@@ -1,12 +1,3 @@
-/*
- * Copyright 2001 Niels Provos <provos@citi.umich.edu>
- * All rights reserved.
- *
- * This header file contains definitions for dealing with HTTP requests
- * that are internal to libevent.  As user of the library, you should not
- * need to know about these.
- */
-
 #ifndef _HTTP_H_
 #define _HTTP_H_
 
